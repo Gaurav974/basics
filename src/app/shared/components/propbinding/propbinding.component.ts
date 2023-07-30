@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./propbinding.component.scss']
 })
 export class PropbindingComponent implements OnInit {
+  public info : string  ='property binding'
+  public info1 : string  ='Angular 14'
+  public info2 : string  ='Bootstarp@4'
+  public prop : string  ='Javascript'
+  public prop1 : string  ='Angular '
+  public prop2 : string  ='Typescript'
+  public ngv : number =12
+  public ngv1 : number =13
+  public ngv2 : number =14
+
+
   public Angular :string =`why choose angular over react ? <br> Angular is preferred over React in certain 
                             cases because it provides a more opinionated and structured approach to development, with built-in tools for managing state, routing, and other common tasks. This can make it easier
                             to maintain and scale large applications, especially in enterprise settings`
